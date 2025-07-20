@@ -1,0 +1,205 @@
+var config = {
+    // style: 'mapbox://styles/mapbox/streets-v12',
+    // leave commented to use Mapbox Standard Style
+    style: 'mapbox://styles/dogatmn/cm4v9fem6000p01sf12f769y5/draft',
+    accessToken: 'pk.eyJ1IjoiZG9nYXRtbiIsImEiOiJjbHlyMTJmcXgwMjQ3MmtzbTRsdm1pejdsIn0.vcEjL7lt8OoOPMP5o1PM6g',
+    showMarkers: false,
+    markerColor: '#ff70ab',
+    //projection: 'equirectangular',
+    //Read more about available projections here
+    //https://docs.mapbox.com/mapbox-gl-js/example/projections/
+    inset: true,
+    insetOptions: {
+        markerColor: '#ff70ab'
+    },
+    insetPosition: 'bottom-right',
+    theme: 'light',
+    use3dTerrain: false, //set true for enabling 3D maps.
+    auto: false,
+    title: 'Çayırlar / Meadows',
+    subtitle: '',
+    byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
+    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    chapters: [
+        {
+            id: '1',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [29.067, 41.079],
+                zoom: 13,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: '2',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/rRcpk1DT/MEF-AAP-027-BAP-2025-07-20-14-24-04.png',
+            description: '',
+            location: {
+                center: [29.067, 41.079],
+                zoom: 15,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: '3',
+            alignment: 'centered',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/Mxm93SRR/MEF-AAP-027-BAP-2025-07-20-14-27-08.png',
+            description: '',
+            location: {
+                center: [29.067, 41.079],
+                zoom: 17,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: '4',
+            alignment: 'centered',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/35pTbvv9/MEF-AAP-027-BAP-2025-07-20-14-28-25.png',
+            description: '',
+            location: {
+                center: [29.067, 41.079],
+                zoom: 17,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+          {
+            id: '5',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/hJTJMhBF/MEF-AAP-027-BAP-2025-07-20-14-30-11.png',
+            description: '',
+            location: {
+                center: [29.067, 41.079],
+                zoom: 17,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: '6',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/mrYPBmHF/MEF-AAP-027-BAP-2025-07-20-14-31-39.png',
+            description: '',
+            location: {
+                center: [29.067, 41.079],
+                zoom: 17,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+    ]
+};
