@@ -29,7 +29,7 @@ var config = {
             image: '',
             description: '',
             location: {
-                center: [29.067, 41.079],
+                center: [29.067, 41.082],
                 zoom: 13,
                 pitch: 0,
                 bearing: 0
@@ -59,7 +59,7 @@ var config = {
             image: 'https://i.ibb.co/rRcpk1DT/MEF-AAP-027-BAP-2025-07-20-14-24-04.png',
             description: '',
             location: {
-                center: [29.067, 41.079],
+                center: [29.067, 41.082],
                 zoom: 15,
                 pitch: 0,
                 bearing: 0
@@ -89,7 +89,7 @@ var config = {
             image: 'https://i.ibb.co/Mxm93SRR/MEF-AAP-027-BAP-2025-07-20-14-27-08.png',
             description: '',
             location: {
-                center: [29.067, 41.079],
+                center: [29.067, 41.082],
                 zoom: 17,
                 pitch: 0,
                 bearing: 0
@@ -119,7 +119,7 @@ var config = {
             image: 'https://i.ibb.co/35pTbvv9/MEF-AAP-027-BAP-2025-07-20-14-28-25.png',
             description: '',
             location: {
-                center: [29.067, 41.079],
+                center: [29.067, 41.082],
                 zoom: 17,
                 pitch: 0,
                 bearing: 0
@@ -149,7 +149,7 @@ var config = {
             image: 'https://i.ibb.co/hJTJMhBF/MEF-AAP-027-BAP-2025-07-20-14-30-11.png',
             description: '',
             location: {
-                center: [29.067, 41.079],
+                center: [29.067, 41.082],
                 zoom: 17,
                 pitch: 0,
                 bearing: 0
@@ -179,7 +179,7 @@ var config = {
             image: 'https://i.ibb.co/mrYPBmHF/MEF-AAP-027-BAP-2025-07-20-14-31-39.png',
             description: '',
             location: {
-                center: [29.067, 41.079],
+                center: [29.067, 41.082],
                 zoom: 17,
                 pitch: 0,
                 bearing: 0
